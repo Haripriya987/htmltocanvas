@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <title>IMG to CANVAS</title>
+</head>
+<body>
+    <div class="one"> 
+        <button class="two"> <i class="fa-solid fa-play" ></i></button>
+       <!--  <button id="pausebtn1"><i class="fa-solid fa-pause"></i></button>-->
+         <button  class="two"><i class="fa-solid fa-play fa-rotate-180"></i></button>
+        <!--<button id="pausebtn2"><i class="fa-solid fa-pause"></i></button>-->
+       </div>
+       <audio src="BhagwatGeeta.mp3" type="audio/mpeg"></audio> 
+       <audio src="krishnaflute.mp3" type="audio/mpeg"></audio>  
+    <div>
+    <br>
+    <div class="i">
+    <img src="img/image.jfif">
+
+    <p id="quote">
+        “You have a right to perform your prescribed duties, 
+        but you are not entitled to the fruits of your actions.”
+    </p>
+</div>
+<button id="btn" onclick="makePDF()">Download</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+ <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
